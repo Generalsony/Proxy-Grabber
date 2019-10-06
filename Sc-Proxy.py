@@ -20,7 +20,17 @@ for c in s + '\n':
     sys.stdout.write(c)
     sys.stdout.flush()
     sleep (10. /90)
+s='[+]White Hat Hacker[+]'
+for c in s + '\n':
+    sys.stdout.write(c)
+    sys.stdout.flush()
+    sleep (10. /90)
 
+s='[+]Follow Me On Facebook For More Scripts&Tutorials ^_^[+]'
+for c in s + '\n':
+    sys.stdout.write(c)
+    sys.stdout.flush()
+    sleep (10. /90)
 try:
     url = "https://free-proxy-list.net/"
     req = urllib.request.Request(url,headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'})
