@@ -9,18 +9,18 @@ s='[+]Coded By Scream (General Sony)[+]'
 for c in s + '\n':
     sys.stdout.write(c)
     sys.stdout.flush()
-    sleep (10. /90)
+    sleep (100. /90)
     time.sleep(5)
     s='[+]https://www.facebook.com/GeneralSony666[+]'
 for c in s + '\n':
     sys.stdout.write(c)
     sys.stdout.flush()
-    sleep (10. /90)
+    sleep (100. /90)
 s='[+]https://www.facebook.com/groups/1886171651498073[+]'
 for c in s + '\n':
     sys.stdout.write(c)
     sys.stdout.flush()
-    sleep (10. /90)
+    sleep (100. /90)
 
 try:
     url = "https://free-proxy-list.net/"
