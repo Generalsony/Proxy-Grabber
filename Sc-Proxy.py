@@ -32,7 +32,7 @@ try:
     proxy_data = soup.find_all('tr')
     Pr_list = []
     for i in proxy_data:
-        Pr = "http://{0}:{1}".format(BeautifulSoup(str(list(i)[0]),'html.parser').text,BeautifulSoup(str(list(i)[1]),'html.parser').text)
+        Pr = "http://{0}:{1}".format(BeautifulSoup(str(list(i)[0]),'html.parser').text,BeautifulSoup(str(list(i)[-1]),'html.parser').text)
         Pr_list.append(Pr)
     Pr_list.remove(Pr_list[0])
     Pr_list.remove(Pr_list[-1])
