@@ -10,7 +10,6 @@ for c in s + '\n':
     sys.stdout.write(c)
     sys.stdout.flush()
     sleep (100. /90)
-    time.sleep(5)
     s='[+]https://www.facebook.com/GeneralSony666[+]'
 for c in s + '\n':
     sys.stdout.write(c)
